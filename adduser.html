@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/css/style.css" rel="stylesheet" />
+    <title>Pixelplus Case Study</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Pixelplus Case Study</h1>
+    </header>
+    <main>
+      <section class="user-form">
+        <h2>All Members</h2>
+        <form id="userForm">
+          <input
+            type="text"
+            placeholder="name"
+            id="name"
+            name="name"
+            required
+          /><br />
+          <input
+            type="text"
+            placeholder="job"
+            id="job"
+            name="job"
+            required
+          /><br />
+
+          <button class="app-button" type="submit">Create User</button>
+          <br />
+        </form>
+        <button id="backButton" class="app-button">Back</button>
+      </section>
+      <div id="message" style="text-align: center;"></div>
+    </main>
+    <footer>
+      <p>Copyright 2021</p>
+    </footer>
+    <script src="./js/adduser.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+@import "./variables/variables.scss";
+
+.app-button {
+    background: transparent;
+    border: 1px solid $light400;
+    border-radius: 5px;
+    padding: 14px 40px;
+    color: $light400;
+    cursor: pointer;
+
+    &:hover {
+        background: $primary200;
+        box-shadow: 0px 5px 20px $primary100;
+        color: $white;
+    }
+}
